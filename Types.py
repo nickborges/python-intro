@@ -16,3 +16,8 @@ string_d = "DDD"
 print(string_c + string_d) #CCCDDD
 print(string_c, string_d) #CCC DDD
 print(string_c, string_d, sep="") #CCCDDD
+string_a = "Recebe um str"
+
+# String interpolation
+string_e = "Teste {} recebe o valor {}".format(1, "parangaricutirimirruaro")
+print(string_e)
