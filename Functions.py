@@ -7,7 +7,7 @@ print("param 1", "param 2", "param3", 4, "5", 6, sep="\n")
 print("param 1", "param 2", "param3", 4, "5", 6, end="\n")
 print(f'olá {nome} você tem quanto anos? {idade}')
 
-# Ttipos
+# type
 ## Uma variável só passa a existir quando atribuímos um valor
 ## Convenção o padrão Snake_Case
 nome = "String Nome"
@@ -58,3 +58,8 @@ print(numero_randomico_intervalo)
 numero_randomico_fixo = random.seed(100)
 numero_randomico_fixo = random.randrange(0, 101)
 print(numero_randomico_fixo) #sempre que rodar será sempre o mesmo número.
+
+# Declarando uma função
+def funcao1(a, b):
+    return a + b
+print(funcao1(11, 15))
