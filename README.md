@@ -1,6 +1,10 @@
 ### Documentação
 https://docs.python.org/pt-br/3/tutorial/index.html
 
+#### Funções built-in
+* Já estão disponíveis no Python e podem ser chamadas em todo lugar do nosso código.
+* Random não é uma função built-in e precisa ser importada.
+
 #### Python 2 vs Python 3
 * Python2
   * raw_input(...) recebe os dados de entrada sempre como string, mesmo informando um inteiro.
