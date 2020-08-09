@@ -1,5 +1,7 @@
 import random
 def jogar():
+    print("Bem-vindo ao jogo de adivinhação:")
+
     numero_secreto = random.randrange(0,51)
     teste = False
 
