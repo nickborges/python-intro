@@ -41,3 +41,20 @@ def funcao_com_parametros(param1):
 
 funcao_com_parametros("Parâmetro 1")
 #funcao_com_parametros("Teste", 10)
+
+
+# Random
+import random
+numero_randomico = random.random() * 100 #default é gerar float com zero, exemplo: 0.12345678
+print(numero_randomico)
+numero_randomico = round(numero_randomico)
+print(numero_randomico)
+
+numero_randomico_intervalo = random.randrange(0, 51) #intervalo entre números de 0 à 50
+print(numero_randomico_intervalo)
+numero_randomico_intervalo = random.randrange(0, 51, step=2) #intervalo entre números de números pares de 0 à 50
+print(numero_randomico_intervalo)
+
+numero_randomico_fixo = random.seed(100)
+numero_randomico_fixo = random.randrange(0, 101)
+print(numero_randomico_fixo) #sempre que rodar será sempre o mesmo número.

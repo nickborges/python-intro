@@ -22,6 +22,9 @@ string_a = "Recebe um str"
 string_e = "Teste {} recebe o valor {}".format(1, "parangaricutirimirruaro")
 print(string_e)
 
+string_f = "Testando a string"
+print(f"Imprime aqui {string_f}")
+
 # Format
 string_format1 = "R$ {:f}".format(1.89)
 print(string_format1)
