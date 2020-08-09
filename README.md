@@ -1,3 +1,6 @@
+### Documentação
+https://docs.python.org/pt-br/3/tutorial/index.html
+
 #### Python 2 vs Python 3
 * Python2
   * raw_input(...) recebe os dados de entrada sempre como string, mesmo informando um inteiro.
