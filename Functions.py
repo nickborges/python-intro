@@ -27,10 +27,17 @@ idade_pessoa = 23
 nome_pessoa = "String aqui"
 
 # Input
-def funcaoTeste():
+def funcao_teste():
     nome = input('Qual seu nome? ')
     print(f'Olá {nome}')
 
-funcaoTeste()
+funcao_teste()
 
+def funcao_com_parametros(param1):
+    print(param1)
 
+#def funcao_com_parametros(param1, param2): #não existe sobre carga(Overloading)
+#    print(param1, param2)
+
+funcao_com_parametros("Parâmetro 1")
+#funcao_com_parametros("Teste", 10)
