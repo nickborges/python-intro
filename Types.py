@@ -2,6 +2,10 @@
 numero_decimal = 11/3
 print(numero_decimal)
 print(type(numero_decimal))
+numero_decimal = 3 //2
+print(numero_decimal)
+print(type(numero_decimal))
+
 
 string_b = "10"
 inteiro_b = 10
