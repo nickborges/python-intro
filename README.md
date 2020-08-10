@@ -1,5 +1,7 @@
 ### Documentação
 https://docs.python.org/pt-br/3/tutorial/index.html
+https://docs.python.org/3.8/library/index.html
+https://docs.python.org/3.8/reference/index.html
 
 #### Funções built-in
 * Já estão disponíveis no Python e podem ser chamadas em todo lugar do nosso código.
@@ -17,3 +19,15 @@ https://docs.python.org/pt-br/3/tutorial/index.html
   * print(...) tem os novos parâmetros como sep="" e end="".
   * int(...) existem no Python 3.
   * Em uma função o parênteses é obrigatório.
+  
+#### Funções Built-in
+https://docs.python.org/3.8/library/functions.html
+ 
+#### String 
+https://docs.python.org/3.8/library/text.html
+
+#### Sequence(List, Tuple, Range)
+https://docs.python.org/3.8/library/stdtypes.html#sequence-types-list-tuple-range
+
+#### Escrita e Leitura de Arquivos
+

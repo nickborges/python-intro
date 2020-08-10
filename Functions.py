@@ -63,3 +63,5 @@ print(numero_randomico_fixo) #sempre que rodar será sempre o mesmo número.
 def funcao1(a, b):
     return a + b
 print(funcao1(11, 15))
+
+
