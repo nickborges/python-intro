@@ -26,8 +26,20 @@ https://docs.python.org/3.8/library/functions.html
 #### String 
 https://docs.python.org/3.8/library/text.html
 
-#### Sequence(List, Tuple, Range)
-https://docs.python.org/3.8/library/stdtypes.html#sequence-types-list-tuple-range
+#### Sequence(String, List, Tuple, Range)
+* https://docs.python.org/3.8/library/stdtypes.html#sequence-types-list-tuple-range
+* https://docs.python.org/3.8/library/stdtypes.html#list
+* String: também é considerada uma sequencia.
+* list usa colchetes [] para inicialização, tuple usa parênteses ()
+* list é mutável, tuple é imutável
+
+#### Set, Dict
+* set:
+  * https://docs.python.org/3.8/library/stdtypes.html#set-types-set-frozenset
+  * https://docs.python.org/3.8/library/stdtypes.html#set
+* dict: 
+  * https://docs.python.org/3.8/library/stdtypes.html#mapping-types-dict 
+  * https://docs.python.org/3.8/library/stdtypes.html#dict
 
 #### Escrita e Leitura de Arquivos
 
