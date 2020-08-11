@@ -64,4 +64,6 @@ def funcao1(a, b):
     return a + b
 print(funcao1(11, 15))
 
+def funcao_sem_conteudo():
+    pass
 
