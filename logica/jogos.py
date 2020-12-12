@@ -1,5 +1,4 @@
-import adivinhacao
-import forca
+from logica import forca, adivinhacao
 
 escolha = int(input("Informe (1) para Forca e (2) par Adivinhação:"))
 
