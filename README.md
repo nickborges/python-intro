@@ -43,3 +43,47 @@ https://docs.python.org/3.8/library/text.html
 
 #### Escrita e Leitura de Arquivos
 
+#### Getter e Setters
+* @property - para get criar o método com o mesmo nome do atributo
+* @nomedoatributo.setter - para criar o seter
+
+#### Modificadores de acesso
+* private:
+  * atributos:
+  ```def __init__(self, nome):
+        self.__nome = nome
+  ```
+  * métodos:
+  ```
+    def __nome_do_metodo(self, parametro)
+  ```
+* static:
+    * métodos:
+    ```
+    @staticmethod
+    def codigo_banco():
+        return "002"
+    ```
+* métodos de classe:
+  * acessar estes métodos de dentro dos métodos de instância.
+  ```
+  class Funcionario:
+    prefixo = 'Instrutor'
+
+    @classmethod
+    def info(cls):
+        return f'Esse é um {cls.prefixo}'
+  ```
+
+#### Herança
+```
+class Veiculo:
+    def abastecer(self, litros):
+        print(litros)
+
+class Moto(Veiculo):
+    super().__init__(40)
+    
+class Carro(Veiculo):
+    super().__init__(45)
+```
